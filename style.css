@@ -1,0 +1,22 @@
+#container{
+    border:2px solid;
+}
+/* Descendant Combinator (Space) */
+#container p {
+    color: blue;
+}
+
+/* Child Combinator (>) */
+#container > p {
+    font-weight: bold;
+}
+
+/* Adjacent Sibling Combinator (+) */
+#container p + p {
+    text-decoration: underline;
+}
+
+/* General Sibling Combinator (~) */
+#container ~ p {
+    border: 1px dashed green;
+}
