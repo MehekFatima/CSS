@@ -1,0 +1,43 @@
+button:hover{
+    background-color: hsl(180, 78%, 54%);
+    font-size: 1em;
+}
+button:active{
+    background-color: rgb(93, 161, 138);
+    font-size: 1em;
+}
+
+a:hover{
+    color: rgb(255, 0, 174);
+}
+a:active{
+    color: chartreuse;
+}
+a:visited{
+    color: rgb(195, 0, 0);
+}
+
+ul li:hover{
+    background-color: darkorange;
+}
+
+ul li:not(:hover){
+    background-color: khaki;
+}
+
+/*ul li:nth-child(even)*/ /*ul li:nth-child(odd)*/ ul li:nth-child(3n+1){
+    background-color: chocolate;
+}
+
+#greetings p{
+    background-color: fuchsia;
+    display: none;
+}
+
+#greetings:hover{
+    text-shadow: 2px 2px 4px crimson ;
+}
+#greetings:hover p{
+    display: block;
+    text-align: center;
+}
