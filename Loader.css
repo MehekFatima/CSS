@@ -1,0 +1,46 @@
+div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.loader{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    border-top: solid #d50d0d;
+
+    animation: spin 5s linear 0s infinite;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+
+.loader2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-top: 2px solid #551d5f;
+    border-bottom: 2px solid  #c5548e;
+    animation: mspin 5s linear 0s infinite;
+}
+
+@keyframes mspin{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
