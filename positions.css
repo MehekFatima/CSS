@@ -1,0 +1,29 @@
+.div1{
+    background-color:  pink;
+    /*position: static;*/
+    position: sticky;
+    top: 10px;
+    left: 25px;
+}
+.div2{
+    background-color:  rgb(174, 50, 205);
+    position: relative ;
+    left: 35px;
+    z-index: 2;
+}
+.div3{
+   background-color:  rgb(208, 178, 208);
+   position: absolute;
+   top: 20px;
+}
+.div4{
+   background-color:  orchid;
+   position: fixed;
+   bottom: 10px;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
